@@ -1,6 +1,8 @@
 {
+  "homepage": "https://Shuaibmohd.github.io/mshuaib",
   "dependencies": {
     "express": "^4.18.1",
+    "gh-pages": "^4.0.0",
     "i": "^0.3.7"
   },
   "name": "mshuaib",
@@ -11,6 +13,7 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
+    "deploy": "gh-pages -d public",
     "start": "node index",
     "dev": "nodemon index"
   },
