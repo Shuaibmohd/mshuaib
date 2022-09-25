@@ -186,12 +186,12 @@ function activeDot() {
 }
 
 
-// Search Event
+// // Search Event
 
 const search_Container = document.querySelector('.search-container')
 
 const search = document.querySelector('.search')
-const searchBtn = document.querySelector('.btn')
+const searchBtn = document.querySelector('.btn-search')
 const searchInput = document.querySelector('.input')
 
 
@@ -209,6 +209,8 @@ searchBtn.addEventListener('click', () => {
     }
     
 })
+
+console.log('hello')
 
 // const form = document.getElementById('form')
 
