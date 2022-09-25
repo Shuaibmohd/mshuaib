@@ -421,7 +421,7 @@ section .typing-text {
 .projects .pro-img {
     background: #333;
     width: 100%;
-    height: fit-content;
+    height: 200px;
     object-fit: fill;
 
 }
@@ -1067,13 +1067,15 @@ a.btn-dark:hover {
 
     .project-design {
         width: 620px;
-        height: 450px;
+        height: fit-content;
+        padding-bottom: 10px;
     }
 
     .projects .pro-img {
         width: 100%;
-        height: fit-content;
+        height: 100%;
         object-fit: cover;
+        margin-inline: auto;
     }
 
     .tabs>div {
